@@ -1,9 +1,10 @@
-# <center>'math+econ+code' masterclass on equilibrium transport and matching models in economics</center>
+# 'math+econ+code' masterclass on equilibrium transport and matching models in economics
 
-### <center>Alfred Galichon (NYU)</center>
-<center>© 2020 by Alfred Galichon. Support from  NSF DMS-1716489 and ERC CoG-866274 EQUIPRICE grants is acknowledged.</center>
+### Alfred Galichon (NYU)
 
-#### <center>with Python code</center>
+### Online masterclass, June 8-12, 2020
+© 2020 by Alfred Galichon. Support from  NSF DMS-1716489 and ERC CoG-866274 EQUIPRICE grants is acknowledged.
+
 
 ## Day 1: competitive equilibrium with gross substitutes
 
