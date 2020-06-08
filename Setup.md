@@ -56,16 +56,16 @@ I will provide installation instructions for Windows and Mac users. If you are u
    ```
      docker build --tag=m-e-c:latest --tag=m-e-c:stable -f m-e-c.Dockerfile .
    ```
-   (it may take a while).
+   (be patient, it will take a while).
 4. To run the container: create a local folder, and run
    ```
      docker run -it -p 8888:8888 -v <your/local/folder>:/home/mec m-e-c
    ```
-5. To launch the Jupyter notebook 
+5. Congratulations! you are now inside the container. To launch the Jupyter notebook, prompt 
    ```
      cd  ../home/mec
      jupyter lab --ip=0.0.0.0 --allow-root
    ```
-   then open a browser and go to the URL as prompted. 
+   then open a browser and go to the URL as displayed. 
 
 
