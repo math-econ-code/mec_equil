@@ -1,8 +1,8 @@
 # Getting set up
 
-In this course, we will primarily using Python as our primary programming language. We will also encourage participants to use R and Julia, but these will be unsupported, so use at your own risk. The code will be presented using Jupyter notebooks. The course will be hosted on github, and I encourage everyone to use git to pull from the repository. 
+In this course, we will primarily using Python as our primary programming language. We will also encourage participants to use R and Julia, but these will be unsupported, so use at your own risk. The code will be presented using Jupyter notebooks. The course will be hosted on github, so instructions on how to git to pull from the repository are included below. 
 
-I will provide installation instructions for Windows and Mac users. If you are using Linux, I can trust you can figure it out.
+Installation instructions are primarily focused on Windows and Mac users, Linux users should have no trouble figuring it out.
 
 
 ## Anaconda (including Python)
@@ -34,14 +34,14 @@ I will provide installation instructions for Windows and Mac users. If you are u
 
 4. Clone the mec_optim repo
    ```
-     git clone https://github.com/math-econ-code/mec_optim_2020-01
+     git clone https://github.com/math-econ-code/mec_equil
    ```
 5. Whenever the repository is updated 
 
    ```
      git pull origin master 
    ```
-   This is only scratching the surface of what we can do with Git and GitHub. It is an amazing way to version control and collaborate on your code. There are lots of great tutorials on how to use both Git and GitHub and I strongly recommend you get into the habit of using it.
+   Much more can be done with Git and GitHub, you can easily find good tutorials online.
 
 ## Docker (optional)
 
