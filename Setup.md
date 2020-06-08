@@ -32,7 +32,7 @@ Installation instructions are primarily focused on Windows and Mac users, Linux 
    * **Mac:**`cd /Users/user/my_project`
    * **Windows:** `cd /c/user/my_project`
 
-4. Clone the mec_optim repo
+4. Clone the mec_equil repo
    ```
      git clone https://github.com/math-econ-code/mec_equil
    ```
