@@ -2,7 +2,7 @@
 
 ### Alfred Galichon (NYU)
 
-### Online masterclass, June 8-12, 2020
+### Online masterclass, June 8-12 2020
 © 2020 by Alfred Galichon. Support from  NSF DMS-1716489 and ERC CoG-866274 EQUIPRICE grants, and contributions by Keith O'Hara, Octavia Ghelfi and James Nesbit are acknowledged.
 
 
