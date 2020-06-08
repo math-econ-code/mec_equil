@@ -39,7 +39,7 @@ I will provide installation instructions for Windows and Mac users. If you are u
 5. Whenever the repository is updated 
 
    ```
-     git pull origin master 
+     git pull ori master 
    ```
    This is only scratching the surface of what we can do with Git and GitHub. It is an amazing way to version control and collaborate on your code. There are lots of great tutorials on how to use both Git and GitHub and I strongly recommend you get into the habit of using it.
 
@@ -50,27 +50,22 @@ I will provide installation instructions for Windows and Mac users. If you are u
    * If your Windows is the Pro edition, you should be fine. 
    * If your Windows edition is the Home edition, you may run into problems. Try to install Windows subystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/install-win10). This may take you to upgrade Windows.
    
- 2. Download the m-e-c.Dockerfile.
+2. Download the m-e-c.Dockerfile.
  
- 3. To build the container: Open the shell, and cd to the directory where the dockerfile is, and run
+3. To build the container: Open the shell, and cd to the directory where the dockerfile is, and run
    ```
      docker build --tag=m-e-c:latest --tag=m-e-c:stable -f m-e-c.Dockerfile .
    ```
    (it may take a while).
- 4. To run the container: create a local folder, and run
-    ```
+4. To run the container: create a local folder, and run
+   ```
      docker run -it -p 8888:8888 -v <your/local/folder>:/home/mec m-e-c
    ```
- 5. To launch the Jupyter notebook 
-    ```
+5. To launch the Jupyter notebook 
+   ```
      cd  ../home/mec
      jupyter lab --ip=0.0.0.0 --allow-root
    ```
    then open a browser and go to the URL as prompted. 
-
-
- 
-
-
 
 
