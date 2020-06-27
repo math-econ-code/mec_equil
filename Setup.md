@@ -54,12 +54,12 @@ Installation instructions are primarily focused on Windows and Mac users, Linux 
  
 3. To build the container: Open the shell, and cd to the directory where the dockerfile is, and run
    ```
-     docker build --tag=m-e-c:latest --tag=m-e-c:stable -f m-e-c.Dockerfile .
+   docker build --tag=mec_equil:stable --tag=mec_equil:latest -f ./mec_equil.Dockerfile  .
    ```
    (be patient, it will take a while).
 4. To run the container: create a local folder, and run
    ```
-     docker run -it -p 8888:8888 -v <your/local/folder>:/home/mec m-e-c
+     docker run -it -p 8888:8888 -v <your/local/folder>:/home mec_equil
    ```
 5. Congratulations! you are now inside the container. To launch the Jupyter notebook, prompt 
    ```
