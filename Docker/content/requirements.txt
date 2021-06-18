@@ -1,8 +1,0 @@
-numpy==1.18.5
-pytz==2020.1
-pandas==1.0.5
-scipy==1.4.1
-cycler==0.10.0
-kiwisolver==1.2.0
-matplotlib==3.2.2
-networkx==2.4
