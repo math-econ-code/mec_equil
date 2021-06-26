@@ -16,11 +16,16 @@ RUN pip3 install -r requirements.txt
 RUN rm requirements.txt
 
 RUN apt-get install -y --fix-missing curl autoconf libtool
+
+RUN pip3 install jupyter
+RUN pip3 install gurobipy
+RUN pip3 install numdifftools
+RUN pip3 install osmnx
+RUN pip3 install -U scikit-learn
+
 # RUN curl -L https://github.com/libspatialindex/libspatialindex/archive/1.8.5.tar.gz | tar -xz
 # RUN cd libspatialindex-1.8.5 && ./autogen.sh && ./configure && make && make install && ldconfig
 # RUN pip3 install osmnx
-
-RUN pip3 install jupyter
 
 # Add Tini. Tini operates as a process subreaper for jupyter. This prevents kernel crashes.
 ENV TINI_VERSION v0.6.0
@@ -37,6 +42,7 @@ RUN mkdir -p /src/notebooks && \
 CMD cd /src/notebooks/mec_equil && \
     git pull origin master && \
     cd .. && \
-    jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
-	
-# CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+	jupyter notebook --config=jupyter_notebook_config.py
+
+
+#    jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root --config=jupyter_notebook_config.py	
