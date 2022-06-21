@@ -2,8 +2,8 @@
 
 ### Alfred Galichon (NYU and Sciences Po)
 
-### Online masterclass, June 21-25 2021
-© 2020-2021 by Alfred Galichon. Support from  NSF DMS-1716489 and ERC CoG-866274 EQUIPRICE grants
+### Online masterclass, June 13-17 2022
+© 2020-2022 by Alfred Galichon. Support from  NSF DMS-1716489 and ERC CoG-866274 EQUIPRICE grants
 A list of continbutors can be found here https://www.math-econ-code.org/coursematerials
 
 
@@ -15,4 +15,4 @@ A list of continbutors can be found here https://www.math-econ-code.org/coursema
 
 ## Day 4: matching models with non-transferable utility
 
-## Day 5: one-to-many matching models
+## Day 5: price equilibrium on networks
